@@ -1,3 +1,24 @@
+@font-face {
+  font-family: 'PixelSplitter';
+  src: url('/PixelSplitter-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DynaPuff';
+  src: url('/DynaPuff.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer base {
+  html {
+    font-family: 'PixelSplitter', 'DynaPuff', system-ui, sans-serif;
+  }
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

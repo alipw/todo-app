@@ -43,7 +43,7 @@
 </script>
 
 <div
-    class="star"
+    class="star fixed z-[-9]"
     style="
       --horizontal: {horizontalLength}px; 
       --vertical: {verticalLength}px; 

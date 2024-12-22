@@ -5,8 +5,14 @@ export default {
     extend: {
       colors: {
         primary: '#6d65c8',
-        primary_second:'#D9A9EB'
-
+        secondary:'#5a63c7',
+        'font-primary': '#FB8F48',
+        'font-secondary': '#FFFFFF',
+        'text-input': '#654B8B'
+      },
+      fontFamily: {
+        sans: ['PixelSplitter', 'DynaPuff', 'system-ui', 'sans-serif'],
+        dynapuff: ['DynaPuff', 'system-ui', 'sans-serif']
       }
     }
   },
